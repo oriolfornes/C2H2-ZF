@@ -13,6 +13,5 @@ curl -O ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebas
 curl -O ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Reference_Proteomes_2020_01.tar.gz
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Download UniProt 2 Prosite manually
+# Download iii) UniProt to Prosite mappings manually
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
