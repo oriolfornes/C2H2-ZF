@@ -1,0 +1,3 @@
+[submodule "pdb2uniprot"]
+	path = pdb2uniprot
+	url = https://github.com/mgalardini/pdb2uniprot
