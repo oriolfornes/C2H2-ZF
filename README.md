@@ -16,7 +16,7 @@ For details on the analysis refer to the [Jupyter notebook](https://github.com/o
 - [ScanProsite](https://prosite.expasy.org/scanprosite/) (version 1.86)
 
 ## Results
-The following results were retrieved on April 24, 2020.
+The following results were obtained on April 24, 2020, are based on predictions by the PROSITE [zinc finger C2H2 type domain profile](https://prosite.expasy.org/PS50157), and refer to the UniProt reference proteomes of eukaryotes (one protein per gene).
 
 ### Analysis of C2H2-zf proteins in the PDB
 - The total number of C2H2-zf proteins is **186703**
@@ -33,8 +33,6 @@ The following results were retrieved on April 24, 2020.
   -For human, the number is **62**
 - The total number of C2H2-zf proteins with one or more domains covered by a PDB protein-DNA complex is **19**
   - For human, the number is **11**
- 
-The previous numbers are based on predictions by the PROSITE [zinc finger C2H2 type domain profile](https://prosite.expasy.org/PS50157) and refer to the UniProt reference proteomes of eukaryotes (one protein per gene).
 
 ### List of protein-DNA complexes of C2H2-zf proteins in the PDB
 1A1F
