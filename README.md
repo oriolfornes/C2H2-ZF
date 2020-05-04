@@ -1,20 +1,21 @@
-The [Jupyter notebook](https://github.com/oriolfornes/C2H2-zf/blob/master/C2H2-zf.ipynb) analyzes the Cys2-His2 zinc finger (C2H2-zf) proteins and domains covered in the [PDB](https://www.rcsb.org/).
+Analysys of Cys2-His2 zinc finger (C2H2-zf) proteins and domains covered in the [PDB](https://www.rcsb.org/).
 
 ## Methods
-
 ### Data
-- The [Pfam to UniProt](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.regions.uniprot.tsv.gz) mappings and UniProt [reference proteomes](ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Reference_Proteomes_2020_01.tar.gz) can be downloaded with the bash script [get_data.sh](./data/get_data.sh)
+- The UniProt [reference proteomes](ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Reference_Proteomes_2020_01.tar.gz) can be downloaded with the bash script [get_data.sh](./data/get_data.sh)
 - The Prosite to UniProt mappings (*i.e.* uniprot2prosite.tab.gz) is obtained from UniProt by customizing the output to `Entry`, `Gene names`, `Organism` and `PROSITE`
 - The PDB to UniProt mappings (*i.e.* [uniprot2pdb.tab.gz](https://github.com/oriolfornes/C2H2-zf/blob/master/data/uniprot2pdb.tab.gz)) is obtained from UniProt by customizing the output to `Entry`, `Gene names`, `Organism` and `PDB`
-
-[Pickles](https://github.com/oriolfornes/C2H2-zf/tree/master/pkl) are created on the fly.
-
-## Dependencies
+[Pickles](https://github.com/oriolfornes/C2H2-zf/tree/master/pkl) and intermediate files are created on the fly.
+### Dependencies
 - [PDB2UniProt](https://github.com/mgalardini/pdb2uniprot)
 - [Python 3.7](https://www.python.org/download/releases/3.7/) with the following libraries: [Biopython](http://biopython.org) and [pandas](https://pandas.pydata.org/)
 - [ScanProsite](ftp://ftp.expasy.org/databases/prosite/ps_scan/) (version 1.86)
+### Analysis
+For details on the analysis refer to the [Jupyter notebook](https://github.com/oriolfornes/C2H2-zf/blob/master/C2H2-zf.ipynb).
 
-## Analysis of C2H2-zf proteins
+## Results
+The following results were retrieved on April 24, 2020.
+### Analysis of C2H2-zf proteins in the PDB
 - The total number of C2H2-zf proteins is **186703**
   - For human, the number is **762**
 - The total number of C2H2-zf domains is **963553**
@@ -29,9 +30,8 @@ The [Jupyter notebook](https://github.com/oriolfornes/C2H2-zf/blob/master/C2H2-z
   -For human, the number is **62**
 - The total number of C2H2-zf proteins with one or more domains covered by a PDB protein-DNA complex is **19**
   - For human, the number is **11**
-
+The previous numbers are based on predictions by the PROSITE [zinc finger C2H2 type domain profile](https://prosite.expasy.org/PS50157) and refer to the UniProt reference proteomes of eukaryotes (one protein per gene).
 ### PDB protein-DNA complexes of C2H2-zf proteins
-(as April 24, 2020)
 1A1F
 1A1G
 1A1H
