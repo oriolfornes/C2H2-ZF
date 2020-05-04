@@ -8,7 +8,7 @@ For details on the analysis refer to the [Jupyter notebook](https://github.com/o
 - The Prosite to UniProt mappings (*i.e.* uniprot2prosite.tab.gz) is obtained from UniProt by customizing the output to `Entry`, `Gene names`, `Organism` and `PROSITE`
 - The PDB to UniProt mappings (*i.e.* [uniprot2pdb.tab.gz](https://github.com/oriolfornes/C2H2-zf/blob/master/data/uniprot2pdb.tab.gz)) is obtained from UniProt by customizing the output to `Entry`, `Gene names`, `Organism` and `PDB`
 
-[Pickles](https://github.com/oriolfornes/C2H2-zf/tree/master/pkl) and intermediate files are created on the fly.
+[Pickles](https://github.com/oriolfornes/C2H2-zf/tree/master/pkl) and any intermediate files are created on the fly.
 
 ### Dependencies
 - [PDB2UniProt](https://github.com/mgalardini/pdb2uniprot)
