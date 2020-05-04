@@ -16,7 +16,7 @@ For details on the analysis refer to the [Jupyter notebook](https://github.com/o
 - [ScanProsite](https://prosite.expasy.org/scanprosite/) (version 1.86)
 
 ## Results
-The following results were obtained on April 24, 2020, are based on predictions by the PROSITE [zinc finger C2H2 type domain profile](https://prosite.expasy.org/PS50157), and refer to the UniProt reference proteomes of eukaryotes (one protein per gene).
+The following results were obtained as of April 24, 2020, are based on predictions by the PROSITE [zinc finger C2H2 type domain profile](https://prosite.expasy.org/PS50157), and refer to the UniProt reference proteomes of eukaryotes (one protein per gene).
 
 ### Analysis of C2H2-zf proteins in the PDB
 - The total number of C2H2-zf proteins is **186,703**
