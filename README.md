@@ -1,4 +1,4 @@
-Analysys of Cys2-His2 zinc finger (C2H2-zf) proteins and domains covered in the [PDB](https://www.rcsb.org/).
+Analysis of Cys2-His2 zinc finger (C2H2-zf) proteins and domains in the [PDB](https://www.rcsb.org/).
 
 ## Methods
 ### Data
