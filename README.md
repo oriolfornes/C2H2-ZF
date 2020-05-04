@@ -34,4 +34,4 @@ The following results were obtained on April 24, 2020, are based on predictions 
 - The total number of C2H2-zf proteins with one or more domains covered by a PDB protein-DNA complex is **19**
   - For human, the number is **11**
   
-Note that due to the focus of the analysis on reference proteomes, some PDB entries might be lost (*e.g.* 1tf3, 1tf6, 1un6, 2drp or 2hgh).
+Note that due to the focus on reference proteomes, some PDB entries might be lost (*e.g.* 1tf3, 1tf6, 1un6, 2drp or 2hgh).
