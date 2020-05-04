@@ -13,7 +13,7 @@ For details on the analysis refer to the [Jupyter notebook](https://github.com/o
 ### Dependencies
 - [PDB2UniProt](https://github.com/mgalardini/pdb2uniprot)
 - [Python 3.7](https://www.python.org/download/releases/3.7/) with the following libraries: [Biopython](http://biopython.org) and [pandas](https://pandas.pydata.org/)
-- [ScanProsite](ftp://ftp.expasy.org/databases/prosite/ps_scan/) (version 1.86)
+- [ScanProsite](https://prosite.expasy.org/scanprosite/) (version 1.86)
 
 ## Results
 The following results were retrieved on April 24, 2020.
